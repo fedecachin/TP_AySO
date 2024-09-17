@@ -1,1 +1,2 @@
 usuario=vagrant
+model name	: 11th Gen Intel(R) Core(TM) i7-11700F @ 2.50GHz
