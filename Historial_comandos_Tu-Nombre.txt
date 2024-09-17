@@ -1,0 +1,120 @@
+}ls
+ls
+ls -l
+ls -la
+pwd
+whoami
+echo "hola"
+ls
+cd repogit/
+ls
+git clone https://github.com/fedecachin/Repo_Palacio.git
+ls
+cd Repo_Palacio/
+history
+history > historial.txt
+ls
+git status
+git add .
+git status
+git commit -m "mi primer commit"
+git config --global user.email "pfedericoagustin@gmail.com"
+git commit -m "mi primer commit"
+git push
+git status
+git push
+git status
+exit
+ls
+cd repogit
+git clone git@github.com:fedecachin/TP_AySO.git
+cd TP_AySO/
+pwd
+ls -l
+cat /etc/os-release
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i Home_url /etc/os-release
+whoami
+echo "usuariousuario"
+echo "usuario=$(whoami)"
+echo "usuario=$(whoami)" > datos_usuario.txt
+ls
+git add .
+git status
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+head /proc/cpuinfo
+grep "model name"
+ls
+exit
+ls
+cd repogit/
+ls
+cd TP_AySO/
+ls
+head /proc/cpuinfo | grep "model name"
+head /proc/cpuinfo | grep "model name" >> datos_usuario.txt
+ls
+cat datos_usuario.txt 
+git add .
+git status
+git commit -m "feat: Añadiendo información de CPU"
+grep -v /etc/passwd > lista_ordenada
+ls
+cd repogit/
+cd TP_AySO/
+ls
+head /etc/passwd
+head -n10 /etc/passwd
+head -n10 /etc/passwd | grep -v nologin /etc/passwd
+head -n10 /etc/passwd | grep -v nologin /etc/passwd > lista_ordenada
+ls
+sort lista_ordenada -t":" -k7
+sort lista_ordenada -t":"-k7
+head -n10 /etc/passwd | grep -v nologin /etc/passwd | sort -t":> lista_ordenada
+
+
+
+cd repogit/
+cd TP_AySO/
+head -n10 /etc/passwd | grep -v nologin /etc/passwd | sort -t":" -k7 > lista_ordenada
+ls
+cat lista_ordenada 
+git add .
+git status
+git commit -m "feat: Añadiendo información de CPU"
+git status
+git add .
+git status
+head -n10 /etc/passwd | grep -v nologin /etc/passwd | sort -t":" -k7 > lista_ordenada
+git add .
+git status
+git add lista_ordenada 
+git status
+echo apropos "drump traffic"
+man
+man dump traffic
+man man
+apropos "dump traffic"
+apropos dump traffic
+apropos "dump traffic"
+echo "$(apropos "dump traffic")"
+apropos "dump traffic"
+echo "tcpdump" > comando_dump_net
+git add.
+git add .
+git status
+git commit -m "ADD: comando para capturar y analizar el trafico de red"
+cat << FIN >> README.md
+Alumno: Federico Palacio
+Division: 115
+Turno: mañana
+FIN
+
+ls
+cat README.md 
+git status
+git add .
+git commit -m "ADD: agregue al archivo readme el alumno, división y turno"
+history
+history -a $HOME/.bash_history
